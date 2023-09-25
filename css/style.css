@@ -1,0 +1,154 @@
+.nav a {
+    text-decoration:none;
+    color:#697e7a;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+nav a:hover, 
+nav a.active {
+    background:#359381;
+    color: #f9f9f9;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item img{
+    opacity: 0.5;
+}
+.graback{
+    background-color: #3e5fac;
+    max-width: 100%;
+    padding-right: 10px;
+}
+.third{
+    background-color: rgb(234, 231, 231);
+}
+.fourth{
+    background-color:  rgb(181, 197, 200);
+   padding:40px;
+}
+
+.fifth{
+    background-color: rgb(234, 231, 231);
+}
+.car{
+    margin-bottom: 100px;
+}
+
+body {
+    overflow-x: hidden;
+ }
+
+.nav a {
+    
+    text-decoration:none;
+    color:#f9f9f9;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    text-decoration: none;
+    /* pointer-events: none; */
+}
+ li>i{
+    color: aliceblue;
+ }
+nav a:hover, 
+nav a.active {
+    background:#d9950d;
+    color: #f9f9f9;
+}
+.sticky-top{
+    background-color: rgb(68, 131, 133);
+}
+
+#login-modal .modal-dialog {
+    width: 350px;
+    margin: auto;
+ } 
+ 
+ .modal-footer {
+    background-color: #f4f4f4;
+    justify-content: center;
+ }
+ section > div {
+    height: 70vh;
+    padding: 32px;
+    display: grid;
+    place-items: center;
+    background-color: var(--background);
+ }
+ .up h1{
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    font-size: 53px;
+    font-family: 'Libre Baskerville', serif;
+    color: bisque;
+    margin-bottom: 100px;
+ 
+ }
+ .up p{
+    font-size:31px;
+     font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+ }
+ 
+ .gallery {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+    gap: 16px;
+    scale: 1.6;
+ }
+ 
+ .card {
+    position: relative;
+    left: 0px;
+    width: 180px;
+    height: 160px;
+    background-color: rgb(249, 230, 214);
+    border-radius: 8px;
+    transition: 100ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+ }
+ 
+ .card img {
+    height: 160px;
+    object-fit:cover;
+    border-radius: 4px;
+ }
+ .card:hover{
+    cursor: pointer;
+    transform: scale9(1.15);
+ 
+ }
+ .card:hover figcaption{
+    font-size: 0.6rem;
+    position: absolute;
+    height: 80px;
+    width: 180px;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    color: white;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+ 
+ }
+ .card:hover ~ .card{
+    font-weight: bold ;
+    cursor: pointer;
+    transform:  translateX(22px);
+ }
+ .gallery{
+ padding:140px;
+ }
